@@ -1,0 +1,65 @@
+body{
+    height: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(https://c1.wallpaperflare.com/preview/652/531/737/wood-aerial-background-beverage.jpg);
+    background-size: cover;
+
+}
+nav{display: flex;}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 17px;
+    border-radius: 40%;
+    color: black;
+}
+ul li:hover{
+    background-color: rgb(148, 155, 155);
+    color: azure;
+}
+ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 17px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.toggle{
+    width: 20px;
+    padding: 10px 40px;
+    text-align: right;
+    box-sizing: border-box;
+    color:whitesmoke;
+    font-size: 50px;
+    display: flex;
+}
+@media (max-width:768px){
+    section{
+        height: 100%;
+        width: 100%;
+        font-family: sans-serif;
+        background-image: url(https://c1.wallpaperflare.com/preview/652/531/737/wood-aerial-background-beverage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .toggle{
+        display: block;
+    }
+}
+ul{
+    width: 100%;
+}
+ul li{
+    display: inline-block;
+    text-align: center;
+}
